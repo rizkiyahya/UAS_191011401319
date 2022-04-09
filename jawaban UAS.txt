@@ -1,0 +1,15 @@
+1. Apa yang dimaksud dengan state management pada flutter?
+2. Sebutkan apa saja state management pada flutter 
+
+
+JAWABAN
+
+1. State Management adalah sebuah cara untuk mengatur data / state kita bekerja, bisa juga untuk
+     memisahkan antara logic dan view dimana logic tersebut juga bisa re-usable. Cara kerja State
+     Management seperti Provide and Listen, maksudnya adalah kita bisa memasukan state yang
+     kemungkinan bisa berubah sewaktu waktu, lalu Widget yang Subscribe (Listen) dengan
+     Provider yang kita buat akan berubah sesuai dengan state yang berubah.
+2. Pada Flutter, ada beberapa jenis State Management selain Provider, seperti Bloc, Redux, GetIt
+    dan lain sebagainya.
+
+
